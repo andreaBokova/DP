@@ -1,0 +1,4 @@
+model,cv_best_macro_f1,test_macro_f1,best_params
+XGBoost,0.802026726830824,0.8476374282825896,"{'clf__colsample_bytree': 0.8, 'clf__learning_rate': 0.1, 'clf__max_depth': 3, 'clf__min_child_weight': 1, 'clf__n_estimators': 900, 'clf__reg_lambda': 1.0, 'clf__subsample': 1.0}"
+LinearSVC,0.8014473697472395,0.8411470052052611,"{'clf__C': 0.1, 'clf__class_weight': 'balanced'}"
+LogReg,0.8033583508121811,0.8223261455893566,"{'clf__C': 2, 'clf__class_weight': 'balanced', 'clf__solver': 'saga'}"

@@ -1,0 +1,5 @@
+RANK: 1
+MODEL: XGBoost
+BEST CV macro-F1: 0.802027
+TEST macro-F1: 0.847637
+BEST PARAMS: {'clf__colsample_bytree': 0.8, 'clf__learning_rate': 0.1, 'clf__max_depth': 3, 'clf__min_child_weight': 1, 'clf__n_estimators': 900, 'clf__reg_lambda': 1.0, 'clf__subsample': 1.0}

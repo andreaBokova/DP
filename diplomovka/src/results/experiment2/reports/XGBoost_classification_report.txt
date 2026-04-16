@@ -1,0 +1,21 @@
+MODEL: XGBoost
+BEST CV macro-F1: 0.802027
+TEST macro-F1: 0.847637
+BEST PARAMS: {'clf__colsample_bytree': 0.8, 'clf__learning_rate': 0.1, 'clf__max_depth': 3, 'clf__min_child_weight': 1, 'clf__n_estimators': 900, 'clf__reg_lambda': 1.0, 'clf__subsample': 1.0}
+
+=== Classification Report (TEST) ===
+              precision    recall  f1-score   support
+
+    negative     0.7895    0.7500    0.7692        60
+     neutral     0.9399    0.9673    0.9534       275
+    positive     0.8396    0.8018    0.8203       111
+
+    accuracy                         0.8969       446
+   macro avg     0.8563    0.8397    0.8476       446
+weighted avg     0.8947    0.8969    0.8955       446
+
+
+=== Confusion Matrix (rows=true, cols=pred) ===
+[[ 45   4  11]
+ [  3 266   6]
+ [  9  13  89]]

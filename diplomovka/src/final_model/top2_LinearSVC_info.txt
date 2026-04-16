@@ -1,0 +1,5 @@
+RANK: 2
+MODEL: LinearSVC
+BEST CV macro-F1: 0.801447
+TEST macro-F1: 0.841147
+BEST PARAMS: {'clf__C': 0.1, 'clf__class_weight': 'balanced'}

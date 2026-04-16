@@ -1,0 +1,5 @@
+RANK: 3
+MODEL: LogReg
+BEST CV macro-F1: 0.803358
+TEST macro-F1: 0.822326
+BEST PARAMS: {'clf__C': 2, 'clf__class_weight': 'balanced', 'clf__solver': 'saga'}
