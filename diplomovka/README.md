@@ -7,13 +7,14 @@
 2. Vytvorenie a aktivacia virtualneho prostredia (venv)
 * vo Windows (PowerShell) spustite nasledujuce prikazy:
   python -m venv .venv
+  
   ..venv\Scripts\Activate.ps1
 
-3. Instalacia zavislosti
+3. Instalacia zavislosti:
    pip install --upgrade pip
    pip install -r requirements.txt
 
-4. Presun do priecinka src, kde sa nachadzaju Python skripty
+4. Presun do priecinka src, kde sa nachadzaju Python skripty: 
    cd src 
 
 5. Spustenie Experimentu 1
