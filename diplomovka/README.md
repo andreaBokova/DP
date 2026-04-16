@@ -37,7 +37,7 @@
    * trening: balanced alebo unbalanced
 * natrenuje Logistic Regression model,
 * vyhodnoti model cez F1, precision, recall a confusion matrix
-* vysledky ulozi do priecinku results/experiment1
+* vysledky ulozi do priecinku results/experiment1.
 
 ## experiment_2.py
 
@@ -46,7 +46,7 @@
 * pouzije reprezentaciu bow,
 * pre kazdy klasifikacny model spusti GridSearchCV a 10-nasobnu krizovu validaciu, natrenuje najlepsiu verziu kazdeho modelu, vyhodnoti model cez macro F1, classification report a confusion matrix,
 * porovna vsetky modely a vyberie top 3 najlepsie,
-* vysledky ulozi do priecinkov results/experiment2 a final_model
+* vysledky ulozi do priecinkov results/experiment2 a final_model.
 
 ## predict_sentiment.py
 
@@ -57,7 +57,7 @@
 * ponecha len neprazdne vety s aspon 3 slovami,
 * nacita 3 najlepsie modely z experimentu 2,
 * pre kazdu vetu vytvori sentimentovu predikciu pomocou vsetkych 3 modelov,
-* vysledky ulozi do suboru results/esg_predictions/all_esg_predictions.csv
+* vysledky ulozi do suboru results/esg_predictions/all_esg_predictions.csv.
 
 ## preprocessing_helper.py
 
