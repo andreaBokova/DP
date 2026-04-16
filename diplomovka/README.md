@@ -5,7 +5,7 @@
 * Visual Studio Code alebo ine IDE podporujuce Python
 
 ## 2. Vytvorenie a aktivacia virtualneho prostredia (venv)
-* vo Windows (PowerShell) spustite nasledujuce prikazy:
+* vo Windows (PowerShell) spustite nasledujuce prikazy:<br>
   python -m venv .venv<br>
   ..venv\Scripts\Activate.ps1
 
