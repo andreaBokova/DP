@@ -1,34 +1,33 @@
 # SPUSTENIE SKRIPTOV
 
-1. Poziadavky
+## 1. Poziadavky
 * Python 3.10 - 3.12 (odporucane, pri nizsej verzii moze dojst k runtime chybam)
 * Visual Studio Code alebo ine IDE podporujuce Python
 
-2. Vytvorenie a aktivacia virtualneho prostredia (venv)
+## 2. Vytvorenie a aktivacia virtualneho prostredia (venv)
 * vo Windows (PowerShell) spustite nasledujuce prikazy:
-  python -m venv .venv
-  
+  python -m venv .venv<br>
   ..venv\Scripts\Activate.ps1
 
-3. Instalacia zavislosti:
-   pip install --upgrade pip
+## 3. Instalacia zavislosti:
+   pip install --upgrade pip<br>
    pip install -r requirements.txt
 
-4. Presun do priecinka src, kde sa nachadzaju Python skripty: 
+## 4. Presun do priecinka src, kde sa nachadzaju Python skripty: 
    cd src 
 
-5. Spustenie Experimentu 1
+## 5. Spustenie Experimentu 1
    python experiment_1.py
 
-6. Spustenie Experimentu 2
+## 6. Spustenie Experimentu 2
    python experiment_2.py
 
-7. Spustenie predict_sentiment.py
+## 7. Spustenie predict_sentiment.py
    python predict_sentiment.py
 
 # INFORMACIE O SKRIPTOCH
 
-experiment_1.py:
+## experiment_1.py:
 
 * skript nacita a predspracuje datasety 50Agree, 66Agree, 75Agree a AllAgree,
 * z AllAgree vytvori fixny test set (20 %),
@@ -40,7 +39,7 @@ experiment_1.py:
 * vyhodnoti model cez F1, precision, recall a confusion matrix
 * vysledky ulozi do priecinku results/experiment1
 
-experiment_2.py
+## experiment_2.py
 
 * skript nacita a predspracuje dataset AllAgree,
 * rozdeli ho na treningovu a testovaciu mnozinu v pomere 80 % / 20 %,
@@ -49,7 +48,7 @@ experiment_2.py
 * porovna vsetky modely a vyberie top 3 najlepsie,
 * vysledky ulozi do priecinkov results/experiment2 a final_model
 
-predict_sentiment.py
+## predict_sentiment.py
 
 * skript nacita .docx ESG reporty z priecinka data/esg/raw/KORPUS_LEI,
 * z cesty a nazvu suboru extrahuje metadata o dokumente (rok, krajina, dolezitost, LEI, banka, nazov dokumentu),
@@ -60,7 +59,7 @@ predict_sentiment.py
 * pre kazdu vetu vytvori sentimentovu predikciu pomocou vsetkych 3 modelov,
 * vysledky ulozi do suboru results/esg_predictions/all_esg_predictions.csv
 
-preprocessing_helper.py
+## preprocessing_helper.py
 
 * skript obsahuje pomocne funkcie na nacitanie a predspracovanie datasetu Financial PhraseBank,
 * nacita .txt subory, kde kazdy riadok obsahuje vetu a sentimentovy label,
@@ -72,7 +71,7 @@ preprocessing_helper.py
 * vytvara pomocny kluc vety na porovnavanie train a test mnoziny,
 * a obsahuje funkciu na odstranenie prekryvu viet medzi train a test datami.
 
-dataset_stats.py:
+## dataset_stats.py:
 
 * skript nacita surovy dataset Financial PhraseBank (.txt),
 * oddeli vetu a label
